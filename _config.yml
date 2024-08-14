@@ -21,7 +21,7 @@ title                    : "개발 블로그"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Nari-Lee"
-description              : "코딩하는 블로그입니다."
+description              : "코딩하면서 공부하는 블로그입니다."
 url                      : "https://nari-lee.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
