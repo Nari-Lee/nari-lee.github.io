@@ -10,7 +10,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>개발 블로그 - 개발 블로그</title>
+<!-- begin _includes/seo.html --><title>Posts by Category - 개발 블로그</title>
 <meta name="description" content="코딩하면서 공부하는 블로그입니다.">
 
 
@@ -21,8 +21,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="개발 블로그">
-<meta property="og:title" content="개발 블로그">
-<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:title" content="Posts by Category">
+<meta property="og:url" content="http://localhost:4000/categories/">
 
 
   <meta property="og:description" content="코딩하면서 공부하는 블로그입니다.">
@@ -42,20 +42,10 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/">
+<link rel="canonical" href="http://localhost:4000/categories/">
 
 
 
-
-
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-    "name": "Nari-Lee",
-    "url": "http://localhost:4000/"
-}
-</script>
 
 
 
@@ -92,7 +82,7 @@
 
   </head>
 
-  <body class="layout--home" dir="ltr">
+  <body class="layout--categories" dir="ltr">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -271,98 +261,51 @@
 
   <div class="archive">
     
-      <h1 id="page-title" class="page__title"></h1>
+      <h1 id="page-title" class="page__title">Posts by Category</h1>
     
     
 
-<h3 class="archive__subtitle">Recent posts</h3>
 
 
 
 
-<div class="entries-list">
+<ul class="taxonomy__index">
   
     
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
       
-        <a href="/study/JDBC/" rel="permalink">JDBC(Java Database Connectivity)
-</a>
+        <li>
+          <a href="#blog">
+            <strong>Blog</strong> <span class="taxonomy__count">2</span>
+          </a>
+        </li>
       
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
     
       
+        <li>
+          <a href="#study">
+            <strong>Study</strong> <span class="taxonomy__count">2</span>
+          </a>
+        </li>
       
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          less than 1 minute read
-        
-      </span>
     
-  </p>
+  
+    
+      
+    
+      
+    
+  
+</ul>
 
 
-    <p class="archive__item-excerpt" itemprop="description">JDBC(Java Database Connectivity)에 대하여
-</p>
-  </article>
-</div>
 
   
     
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/study/markdown/" rel="permalink">마크다운 문법 가이드
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-
-    
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-clock" aria-hidden="true"></i>
-        
-          1 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">마크다운 문법 가이드 (입력 방법 포함)
-</p>
-  </article>
-</div>
-
-  
-    
+      <section id="blog" class="taxonomy__section">
+        <h2 class="archive__subtitle">Blog</h2>
+        <div class="entries-list">
+          
+            
 
 
 
@@ -401,8 +344,8 @@
   </article>
 </div>
 
-  
-    
+          
+            
 
 
 
@@ -443,9 +386,108 @@ GitHub Blog 서비스의 이름은 Pages이다.
   </article>
 </div>
 
+          
+        </div>
+        <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
+      </section>
+    
   
+    
+      <section id="study" class="taxonomy__section">
+        <h2 class="archive__subtitle">Study</h2>
+        <div class="entries-list">
+          
+            
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/study/JDBC/" rel="permalink">JDBC(Java Database Connectivity)
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          less than 1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">JDBC(Java Database Connectivity)에 대하여
+</p>
+  </article>
 </div>
 
+          
+            
+
+
+
+<div class="list__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/study/markdown/" rel="permalink">마크다운 문법 가이드
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">마크다운 문법 가이드 (입력 방법 포함)
+</p>
+  </article>
+</div>
+
+          
+        </div>
+        <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
+      </section>
+    
+  
+
+  
+    
+  
+    
+  
 
 
 

@@ -1,1 +1,205 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-14T13:40:10+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Site Title</title><subtitle>An amazing website.</subtitle><author><name>Your Name</name></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-16T18:42:22+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">개발 블로그</title><subtitle>코딩하면서 공부하는 블로그입니다.</subtitle><author><name>Nari-Lee</name></author><entry><title type="html">JDBC(Java Database Connectivity)</title><link href="http://localhost:4000/study/JDBC/" rel="alternate" type="text/html" title="JDBC(Java Database Connectivity)" /><published>2024-08-16T00:00:00+09:00</published><updated>2024-08-17T09:50:00+09:00</updated><id>http://localhost:4000/study/JDBC</id><content type="html" xml:base="http://localhost:4000/study/JDBC/"><![CDATA[<p>JDBC(Java Database Connectivity)는 Java 애플리케이션에서 데이터베이스에 접근할 수 있게 해주는 Java API이다. 이를 통해 개발자는 다양한 관계형 데이터베이스에 연결하고 SQL 쿼리를 실행할 수 있다.</p>
+
+<h2 id="1-주요-특징">1. 주요 특징</h2>
+
+<ul>
+  <li>표준화된 인터페이스 : JDBC는 자바 플랫폼의 표준 부분으로, 일관된 API를 제공한다. 이를 통해 개발자는 특정 데이터 베이스에 종속되지 않는 코드를 작성 할 수 있다.</li>
+  <li>데이터베이스 독립성 : JDBC는 다양한 데이터베이스와 호환됩니다. 개발자는 데이터베이스 종류에 관계없이 동일한 코드를 사용할 수 있습니다.</li>
+</ul>
+
+<h2 id="2-jdbc-구조">2. JDBC 구조</h2>
+
+<p>JDBC는 크게 JDBC API와 JDBC Driver로 구성됩니다.</p>]]></content><author><name>Nari-Lee</name></author><category term="Study" /><category term="Study" /><category term="Java" /><category term="SQL" /><category term="JDBC" /><summary type="html"><![CDATA[JDBC(Java Database Connectivity)에 대하여]]></summary></entry><entry><title type="html">github.io 블로그 시작</title><link href="http://localhost:4000/blog/Hello-world/" rel="alternate" type="text/html" title="github.io 블로그 시작" /><published>2024-08-14T00:00:00+09:00</published><updated>2024-08-15T07:05:00+09:00</updated><id>http://localhost:4000/blog/Hello-world</id><content type="html" xml:base="http://localhost:4000/blog/Hello-world/"><![CDATA[<p>GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.
+GitHub Blog 서비스의 이름은 Pages이다.</p>
+
+<p>테마는 minimal-mistakes이다.</p>]]></content><author><name>Nari-Lee</name></author><category term="Blog" /><category term="Blog" /><summary type="html"><![CDATA[GitHub Blog 서비스인 github.io 블로그 시작하기로 했다. GitHub Blog 서비스의 이름은 Pages이다.]]></summary></entry><entry><title type="html">블로그 계획</title><link href="http://localhost:4000/blog/blog-plan/" rel="alternate" type="text/html" title="블로그 계획" /><published>2024-08-14T00:00:00+09:00</published><updated>2024-08-15T09:26:00+09:00</updated><id>http://localhost:4000/blog/blog-plan</id><content type="html" xml:base="http://localhost:4000/blog/blog-plan/"><![CDATA[<p>GitHub Pages의 github.io 블로그 시작하기로 하였다.
+블로그 계획을 한번 세워보았다. h2 태그로 제목을 쓰면
+TOC 테이블로 오른쪽 사이드바에 보여줄 수 있다.</p>
+
+<h2 id="1-기술-공부하기">1. 기술 공부하기</h2>
+
+<p>공부하고 블로그 글로 게시하자.</p>
+
+<h2 id="2-프로젝트-소개하기">2. 프로젝트 소개하기</h2>
+
+<p>개인적으로 진행하는 프로젝트를 진행해보고
+결과를 소개해보자.</p>]]></content><author><name>Nari-Lee</name></author><category term="Blog" /><category term="Blog" /><summary type="html"><![CDATA[GitHub github.io 블로그 계획.]]></summary></entry><entry><title type="html">마크다운 문법 가이드</title><link href="http://localhost:4000/study/markdown/" rel="alternate" type="text/html" title="마크다운 문법 가이드" /><published>2024-08-14T00:00:00+09:00</published><updated>2024-08-15T09:50:00+09:00</updated><id>http://localhost:4000/study/markdown</id><content type="html" xml:base="http://localhost:4000/study/markdown/"><![CDATA[<p>마크다운(markdown)이란 마크업 언어의 일종으로 흔히 github의 “README.md”에서 볼 수 있다.
+확장자는 .md 또는 .markdown을 사용한다.</p>
+
+<h2 id="1-제목-작성하기">1. 제목 작성하기</h2>
+
+<p>제목은 ‘#’ 기호를 사용해 표현합니다. ‘#’의 개수에 따라 크기가 달라진다.</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh"># 제목 1</span>
+<span class="gu">## 제목 2</span>
+<span class="gu">### 제목 3</span>
+<span class="gu">#### 제목 4</span>
+<span class="gu">##### 제목 5</span>
+<span class="gu">###### 제목 6</span>
+</code></pre></div></div>
+
+<p>위와 같이 입력하면 아래처럼 표시된다:</p>
+
+<h1 id="제목-1">제목 1</h1>
+<h2 id="제목-2">제목 2</h2>
+<h3 id="제목-3">제목 3</h3>
+<h4 id="제목-4">제목 4</h4>
+<h5 id="제목-5">제목 5</h5>
+<h6 id="제목-6">제목 6</h6>
+
+<h2 id="2-텍스트-강조하기">2. 텍스트 강조하기</h2>
+
+<p>마크다운에서는 다음과 같이 텍스트를 강조할 수 있다.:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ge">*이탤릭체*</span>는 별표 하나로 감싸기
+<span class="gs">**굵은 글씨**</span>는 별표 두 개로 감싸기
+~~취소선~~은 물결표 두 개로 감싸기
+</code></pre></div></div>
+
+<p>실제로 보이는 모습:</p>
+
+<ul>
+  <li><em>이탤릭체</em>는 별표 하나로 감싸기</li>
+  <li><strong>굵은 글씨</strong>는 별표 두 개로 감싸기</li>
+  <li><del>취소선</del>은 물결표 두 개로 감싸기</li>
+</ul>
+
+<h2 id="3-목록-만들기">3. 목록 만들기</h2>
+
+<h3 id="순서-없는-목록">순서 없는 목록</h3>
+
+<p>입력:</p>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">-</span> 첫 번째 항목
+<span class="p">-</span> 두 번째 항목
+<span class="p">  -</span> 하위 항목
+<span class="p">  -</span> 또 다른 하위 항목
+</code></pre></div></div>
+
+<p>결과:</p>
+<ul>
+  <li>첫 번째 항목</li>
+  <li>두 번째 항목
+    <ul>
+      <li>하위 항목</li>
+      <li>또 다른 하위 항목</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="순서-있는-목록">순서 있는 목록</h3>
+
+<p>입력:</p>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">1.</span> 첫 번째
+<span class="p">2.</span> 두 번째
+<span class="p">3.</span> 세 번째
+</code></pre></div></div>
+
+<p>결과:</p>
+<ol>
+  <li>첫 번째</li>
+  <li>두 번째</li>
+  <li>세 번째</li>
+</ol>
+
+<h2 id="4-링크-삽입하기">4. 링크 삽입하기</h2>
+
+<p>입력:</p>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span><span class="nv">구글 홈페이지</span><span class="p">](</span><span class="sx">https://www.google.com</span><span class="p">)</span>로 이동하는 링크이다.
+</code></pre></div></div>
+
+<p>결과:
+<a href="https://www.google.com">구글 홈페이지</a>로 이동하는 링크이다.</p>
+
+<h2 id="5-이미지-넣기">5. 이미지 넣기</h2>
+
+<p>입력:</p>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">마크다운 로고</span><span class="p">](</span><span class="sx">https://markdown-here.com/img/icon256.png</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>결과:
+<img src="https://markdown-here.com/img/icon256.png" alt="마크다운 로고" /></p>
+
+<h2 id="6-코드-표시하기">6. 코드 표시하기</h2>
+
+<p>인라인 코드는 백틱(`)으로 감싼다.</p>
+
+<p>입력:</p>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>인라인 코드는 <span class="sb">`백틱`</span>으로 감싼다.
+</code></pre></div></div>
+
+<p>결과:
+인라인 코드는 <code class="language-plaintext highlighter-rouge">백틱</code>으로 감싼다.</p>
+
+<p>코드 블록은 백틱 세 개로 시작하고 끝낸다:</p>
+
+<p>입력:</p>
+<pre>
+```python
+def hello_world():
+    print("Hello, Markdown!")
+```
+</pre>
+
+<p>결과:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">hello_world</span><span class="p">():</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"Hello, Markdown!"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="7-인용구-넣기">7. 인용구 넣기</h2>
+
+<h3 id="7-1-인용하기">7-1. 인용하기</h3>
+
+<p>인용문은 부등호(‘&gt;’)로 감싼다.</p>
+
+<p>입력:</p>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; 첫번째 인용구 </span>
+</code></pre></div></div>
+
+<p>결과:</p>
+<blockquote>
+  <p>첫번째 인용구</p>
+</blockquote>
+
+<h3 id="7-2-단계적으로-인용하기">7-2. 단계적으로 인용하기</h3>
+
+<p>입력:</p>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gt">&gt; 첫번째 인용구 </span>
+<span class="gt">&gt;&gt; 두번째 인용구 </span>
+<span class="gt">&gt;&gt;&gt; 세번째 인용구</span>
+</code></pre></div></div>
+
+<p>결과:</p>
+<blockquote>
+  <p>첫번째 인용구</p>
+  <blockquote>
+    <p>두번째 인용구</p>
+    <blockquote>
+      <p>세번째 인용구</p>
+    </blockquote>
+  </blockquote>
+</blockquote>
+
+<h2 id="8-구분선-넣기">8. 구분선 넣기</h2>
+
+<p>입력:</p>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">---
+</span></code></pre></div></div>
+
+<p>결과:</p>
+
+<hr />
+
+<h2 id="9-표-만들기">9. 표 만들기</h2>
+
+<p>입력:</p>
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| 제목 1 | 제목 2 |
+|--------|--------|
+| 내용 1 | 내용 2 |
+| 내용 3 | 내용 4 |
+</code></pre></div></div>
+
+<p>결과:
+| 제목 1 | 제목 2 |
+|——–|——–|
+| 내용 1 | 내용 2 |
+| 내용 3 | 내용 4 |</p>]]></content><author><name>Nari-Lee</name></author><category term="Study" /><category term="Blog" /><category term="GitHub pages" /><summary type="html"><![CDATA[마크다운 문법 가이드 (입력 방법 포함)]]></summary></entry></feed>

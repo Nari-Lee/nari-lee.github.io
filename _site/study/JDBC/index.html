@@ -10,30 +10,36 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>개발 블로그 - 개발 블로그</title>
-<meta name="description" content="코딩하면서 공부하는 블로그입니다.">
+<!-- begin _includes/seo.html --><title>JDBC(Java Database Connectivity) - 개발 블로그</title>
+<meta name="description" content="JDBC(Java Database Connectivity)에 대하여">
 
 
   <meta name="author" content="Nari-Lee">
   
+  <meta property="article:author" content="Nari-Lee">
+  
 
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="개발 블로그">
-<meta property="og:title" content="개발 블로그">
-<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:title" content="JDBC(Java Database Connectivity)">
+<meta property="og:url" content="http://localhost:4000/study/JDBC/">
 
 
-  <meta property="og:description" content="코딩하면서 공부하는 블로그입니다.">
-
-
-
+  <meta property="og:description" content="JDBC(Java Database Connectivity)에 대하여">
 
 
 
 
 
+
+
+  <meta property="article:published_time" content="2024-08-16T00:00:00+09:00">
+
+
+
+  <meta property="article:modified_time" content="2024-08-17T09:50:00+09:00">
 
 
 
@@ -42,20 +48,10 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/">
+<link rel="canonical" href="http://localhost:4000/study/JDBC/">
 
 
 
-
-
-  <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-    "name": "Nari-Lee",
-    "url": "http://localhost:4000/"
-}
-</script>
 
 
 
@@ -92,7 +88,7 @@
 
   </head>
 
-  <body class="layout--home" dir="ltr">
+  <body class="layout--single" dir="ltr">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -145,6 +141,8 @@
 
     <div class="initial-content">
       
+
+
 
 
 
@@ -269,33 +267,20 @@
 
 
 
-  <div class="archive">
-    
-      <h1 id="page-title" class="page__title"></h1>
-    
-    
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="JDBC(Java Database Connectivity)">
+    <meta itemprop="description" content="JDBC(Java Database Connectivity)에 대하여">
+    <meta itemprop="datePublished" content="2024-08-16T00:00:00+09:00">
+    <meta itemprop="dateModified" content="2024-08-17T09:50:00+09:00">
 
-<h3 class="archive__subtitle">Recent posts</h3>
-
-
-
-
-<div class="entries-list">
-  
-    
-
-
-
-<div class="list__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
+    <div class="page__inner-wrap">
       
-        <a href="/study/JDBC/" rel="permalink">JDBC(Java Database Connectivity)
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">
+            <a href="http://localhost:4000/study/JDBC/" itemprop="url">JDBC(Java Database Connectivity)
 </a>
-      
-    </h2>
-    
+          </h1>
+          
 
   <p class="page__meta">
     
@@ -316,17 +301,124 @@
   </p>
 
 
-    <p class="archive__item-excerpt" itemprop="description">JDBC(Java Database Connectivity)에 대하여
-</p>
-  </article>
-</div>
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+              <ul class="toc__menu"><li><a href="#1-주요-특징">1. 주요 특징</a></li><li><a href="#2-jdbc-구조">2. JDBC 구조</a></li></ul>
+            </nav>
+          </aside>
+        
+        <p>JDBC(Java Database Connectivity)는 Java 애플리케이션에서 데이터베이스에 접근할 수 있게 해주는 Java API이다. 이를 통해 개발자는 다양한 관계형 데이터베이스에 연결하고 SQL 쿼리를 실행할 수 있다.</p>
+
+<h2 id="1-주요-특징">1. 주요 특징</h2>
+
+<ul>
+  <li>표준화된 인터페이스 : JDBC는 자바 플랫폼의 표준 부분으로, 일관된 API를 제공한다. 이를 통해 개발자는 특정 데이터 베이스에 종속되지 않는 코드를 작성 할 수 있다.</li>
+  <li>데이터베이스 독립성 : JDBC는 다양한 데이터베이스와 호환됩니다. 개발자는 데이터베이스 종류에 관계없이 동일한 코드를 사용할 수 있습니다.</li>
+</ul>
+
+<h2 id="2-jdbc-구조">2. JDBC 구조</h2>
+
+<p>JDBC는 크게 JDBC API와 JDBC Driver로 구성됩니다.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
 
   
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-tags" aria-hidden="true"></i> Tags: </strong>
+    <span itemprop="keywords">
     
+      <a href="/tags/#java" class="page__taxonomy-item p-category" rel="tag">Java</a><span class="sep">, </span>
+    
+      <a href="/tags/#jdbc" class="page__taxonomy-item p-category" rel="tag">JDBC</a><span class="sep">, </span>
+    
+      <a href="/tags/#sql" class="page__taxonomy-item p-category" rel="tag">SQL</a><span class="sep">, </span>
+    
+      <a href="/tags/#study" class="page__taxonomy-item p-category" rel="tag">Study</a>
+    
+    </span>
+  </p>
 
 
 
-<div class="list__item">
+
+  
+
+
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      <a href="/categories/#study" class="page__taxonomy-item p-category" rel="tag">Study</a>
+    
+    </span>
+  </p>
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time class="dt-published" datetime="2024-08-16">August 16, 2024</time></p>
+
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=JDBC%28Java+Database+Connectivity%29%20http%3A%2F%2Flocalhost%3A4000%2Fstudy%2FJDBC%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Fstudy%2FJDBC%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/study/JDBC/" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="/study/markdown/" class="pagination--pager" title="마크다운 문법 가이드
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    
+<div class="page__related">
+  
+  <h2 class="page__related-title">You may also enjoy</h2>
+  <div class="grid__wrapper">
+    
+      
+      
+
+
+
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -361,12 +453,13 @@
   </article>
 </div>
 
-  
     
+      
+      
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -401,12 +494,13 @@
   </article>
 </div>
 
-  
     
+      
+      
 
 
 
-<div class="list__item">
+<div class="grid__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     
     <h2 class="archive__item-title no_toc" itemprop="headline">
@@ -443,13 +537,12 @@ GitHub Blog 서비스의 이름은 Pages이다.
   </article>
 </div>
 
-  
+    
+  </div>
 </div>
 
-
-
-
-  </div>
+  
+  
 </div>
 
       
@@ -504,6 +597,25 @@ GitHub Blog 서비스의 이름은 Pages이다.
 
 
 
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "http://localhost:4000/study/JDBC/";  /* Replace PAGE_URL with your page's canonical URL variable */
+      this.page.identifier = "/study/JDBC"; /* Replace PAGE_IDENTIFIER with your page's unique identifier variable */
+    };
+    (function() { /* DON'T EDIT BELOW THIS LINE */
+      var d = document, s = d.createElement('script');
+      s.src = 'https://nari-lee-github-io.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
 
 
 
