@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-16T19:23:40+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">개발 블로그</title><subtitle>코딩하면서 공부하는 블로그입니다.</subtitle><author><name>Nari-Lee</name></author><entry><title type="html">JDBC(Java Database Connectivity)</title><link href="http://localhost:4000/study/JDBC/" rel="alternate" type="text/html" title="JDBC(Java Database Connectivity)" /><published>2024-08-16T00:00:00+09:00</published><updated>2024-08-17T09:22:00+09:00</updated><id>http://localhost:4000/study/JDBC</id><content type="html" xml:base="http://localhost:4000/study/JDBC/"><![CDATA[<p>JDBC(Java Database Connectivity)는 Java 애플리케이션에서 데이터베이스에 접근할 수 있게 해주는 Java API이다. 이를 통해 개발자는 다양한 관계형 데이터베이스에 연결하고 SQL 쿼리를 실행할 수 있다.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-20T18:27:36+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">개발 블로그</title><subtitle>코딩하면서 공부하는 블로그입니다.</subtitle><author><name>Nari-Lee</name></author><entry><title type="html">MyBatis</title><link href="http://localhost:4000/study/MyBatis/" rel="alternate" type="text/html" title="MyBatis" /><published>2024-08-20T00:00:00+09:00</published><updated>2024-08-21T09:22:00+09:00</updated><id>http://localhost:4000/study/MyBatis</id><content type="html" xml:base="http://localhost:4000/study/MyBatis/"><![CDATA[<p>MyBatis는 자바 퍼시스턴스 프레임워크로, 데이터베이스 프로그래밍을 간소화하고 SQL, 저장프로시저 그리고 몇가지 고급 매핑을 지원한다.</p>
+
+<h2 id="1-주요-특징">1. 주요 특징</h2>
+
+<ul>
+  <li></li>
+</ul>]]></content><author><name>Nari-Lee</name></author><category term="Study" /><category term="Study" /><category term="Java" /><category term="SQL" /><category term="MyBatis" /><summary type="html"><![CDATA[MyBatis에 대하여]]></summary></entry><entry><title type="html">JDBC(Java Database Connectivity)</title><link href="http://localhost:4000/study/JDBC/" rel="alternate" type="text/html" title="JDBC(Java Database Connectivity)" /><published>2024-08-16T00:00:00+09:00</published><updated>2024-08-17T09:22:00+09:00</updated><id>http://localhost:4000/study/JDBC</id><content type="html" xml:base="http://localhost:4000/study/JDBC/"><![CDATA[<p>JDBC(Java Database Connectivity)는 Java 애플리케이션에서 데이터베이스에 접근할 수 있게 해주는 Java API이다. 이를 통해 개발자는 다양한 관계형 데이터베이스에 연결하고 SQL 쿼리를 실행할 수 있다.</p>
 
 <h2 id="1-주요-특징">1. 주요 특징</h2>
 
@@ -88,7 +94,7 @@
 <h3 id="44-resultset-인터페이스">4.4 ResultSet 인터페이스</h3>
 
 <ul>
-  <li>SQL 쿼리의 결과를 나타냄</li>
+  <li>SELECT문 실행하여 SQL 쿼리의 결과를 나타냄(서버에서 결과를 가져오는 객체일뿐 결과가 아니다!)</li>
   <li>결과 집합을 순회하고 데이터에 접근하는 메서드 제공</li>
 </ul>
 
@@ -132,10 +138,7 @@
   <li>예외 처리: SQLException 등 JDBC 관련 예외를 적절히 처리해야 함</li>
 </ol>
 
-<p>JDBC는 자바 기반 애플리케이션에서 데이터베이스 작업을 수행하기 위한 필수적인 기술이다. 적절한 사용을 통해 효율적이고 안전한 데이터베이스 접근이 가능하다.</p>]]></content><author><name>Nari-Lee</name></author><category term="Study" /><category term="Study" /><category term="Java" /><category term="SQL" /><category term="JDBC" /><summary type="html"><![CDATA[JDBC(Java Database Connectivity)에 대하여]]></summary></entry><entry><title type="html">github.io 블로그 시작</title><link href="http://localhost:4000/blog/Hello-world/" rel="alternate" type="text/html" title="github.io 블로그 시작" /><published>2024-08-14T00:00:00+09:00</published><updated>2024-08-15T07:05:00+09:00</updated><id>http://localhost:4000/blog/Hello-world</id><content type="html" xml:base="http://localhost:4000/blog/Hello-world/"><![CDATA[<p>GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.
-GitHub Blog 서비스의 이름은 Pages이다.</p>
-
-<p>테마는 minimal-mistakes이다.</p>]]></content><author><name>Nari-Lee</name></author><category term="Blog" /><category term="Blog" /><summary type="html"><![CDATA[GitHub Blog 서비스인 github.io 블로그 시작하기로 했다. GitHub Blog 서비스의 이름은 Pages이다.]]></summary></entry><entry><title type="html">블로그 계획</title><link href="http://localhost:4000/blog/blog-plan/" rel="alternate" type="text/html" title="블로그 계획" /><published>2024-08-14T00:00:00+09:00</published><updated>2024-08-15T09:26:00+09:00</updated><id>http://localhost:4000/blog/blog-plan</id><content type="html" xml:base="http://localhost:4000/blog/blog-plan/"><![CDATA[<p>GitHub Pages의 github.io 블로그 시작하기로 하였다.
+<p>JDBC는 자바 기반 애플리케이션에서 데이터베이스 작업을 수행하기 위한 필수적인 기술이다. 적절한 사용을 통해 효율적이고 안전한 데이터베이스 접근이 가능하다.</p>]]></content><author><name>Nari-Lee</name></author><category term="Study" /><category term="Study" /><category term="Java" /><category term="SQL" /><category term="JDBC" /><summary type="html"><![CDATA[JDBC(Java Database Connectivity)에 대하여]]></summary></entry><entry><title type="html">블로그 계획</title><link href="http://localhost:4000/blog/Blog-Plan/" rel="alternate" type="text/html" title="블로그 계획" /><published>2024-08-14T00:00:00+09:00</published><updated>2024-08-15T09:26:00+09:00</updated><id>http://localhost:4000/blog/Blog-Plan</id><content type="html" xml:base="http://localhost:4000/blog/Blog-Plan/"><![CDATA[<p>GitHub Pages의 github.io 블로그 시작하기로 하였다.
 블로그 계획을 한번 세워보았다. h2 태그로 제목을 쓰면
 TOC 테이블로 오른쪽 사이드바에 보여줄 수 있다.</p>
 
@@ -146,7 +149,10 @@ TOC 테이블로 오른쪽 사이드바에 보여줄 수 있다.</p>
 <h2 id="2-프로젝트-소개하기">2. 프로젝트 소개하기</h2>
 
 <p>개인적으로 진행하는 프로젝트를 진행해보고
-결과를 소개해보자.</p>]]></content><author><name>Nari-Lee</name></author><category term="Blog" /><category term="Blog" /><summary type="html"><![CDATA[GitHub github.io 블로그 계획.]]></summary></entry><entry><title type="html">마크다운 문법 가이드</title><link href="http://localhost:4000/study/markdown/" rel="alternate" type="text/html" title="마크다운 문법 가이드" /><published>2024-08-14T00:00:00+09:00</published><updated>2024-08-15T09:50:00+09:00</updated><id>http://localhost:4000/study/markdown</id><content type="html" xml:base="http://localhost:4000/study/markdown/"><![CDATA[<p>마크다운(markdown)이란 마크업 언어의 일종으로 흔히 github의 “README.md”에서 볼 수 있다.
+결과를 소개해보자.</p>]]></content><author><name>Nari-Lee</name></author><category term="Blog" /><category term="Blog" /><summary type="html"><![CDATA[GitHub github.io 블로그 계획.]]></summary></entry><entry><title type="html">github.io 블로그 시작</title><link href="http://localhost:4000/blog/Hello-world/" rel="alternate" type="text/html" title="github.io 블로그 시작" /><published>2024-08-14T00:00:00+09:00</published><updated>2024-08-15T07:05:00+09:00</updated><id>http://localhost:4000/blog/Hello-world</id><content type="html" xml:base="http://localhost:4000/blog/Hello-world/"><![CDATA[<p>GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.
+GitHub Blog 서비스의 이름은 Pages이다.</p>
+
+<p>테마는 minimal-mistakes이다.</p>]]></content><author><name>Nari-Lee</name></author><category term="Blog" /><category term="Blog" /><summary type="html"><![CDATA[GitHub Blog 서비스인 github.io 블로그 시작하기로 했다. GitHub Blog 서비스의 이름은 Pages이다.]]></summary></entry><entry><title type="html">마크다운 문법 가이드</title><link href="http://localhost:4000/study/Markdown/" rel="alternate" type="text/html" title="마크다운 문법 가이드" /><published>2024-08-14T00:00:00+09:00</published><updated>2024-08-15T09:50:00+09:00</updated><id>http://localhost:4000/study/Markdown</id><content type="html" xml:base="http://localhost:4000/study/Markdown/"><![CDATA[<p>마크다운(markdown)이란 마크업 언어의 일종으로 흔히 github의 “README.md”에서 볼 수 있다.
 확장자는 .md 또는 .markdown을 사용한다.</p>
 
 <h2 id="1-제목-작성하기">1. 제목 작성하기</h2>
